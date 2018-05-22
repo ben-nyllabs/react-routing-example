@@ -1,0 +1,29 @@
+.Sidebar {
+    position: relative;
+    z-index: 999;
+    background-color: #CCC;
+    max-width: 300px;
+    height: calc(100vh - 20px);
+    margin-left: 0px;
+}
+
+.Sidebar.closed {
+    margin-left: -250px;
+}
+
+
+.SidebarItem {
+    height: 2rem;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    background-color: #CCC;
+}
+
+.SidebarItem.closed {
+    text-align: right;
+}
+
+.SidebarItem:hover {
+    background-color: #AAA;
+}
